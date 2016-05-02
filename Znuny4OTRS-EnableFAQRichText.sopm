@@ -25,12 +25,5 @@ This extention enables rich text for FAQ even if rich text is disabled via SysCo
         </p>
         <br/>
         <br/>
-        <p>
-        Your Znuny Team!
-        <br/>
-        <a href="http://znuny.com/" target="_blank">http://znuny.com</a>
-        </p>
-        <br/>
-        <br/>
     ]]></IntroInstall>
 </otrs_package>
