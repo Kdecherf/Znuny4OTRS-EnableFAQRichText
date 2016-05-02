@@ -1,5 +1,3 @@
-![Znuny logo](http://znuny.com/assets/logo_small.png)
-
 Znuny4OTRS - EnableFAQRichText
 ==============================
 This package enables richtext for FAQ even if richtext is disabled in OTRS.
@@ -9,6 +7,16 @@ This package enables richtext for FAQ even if richtext is disabled in OTRS.
 
 Download the package and install it via admin interface -> package manager.
 
+**Compilation**
+
+You can compile the OPM file using a clean OTRS installation:
+
+* Download the latest release of OTRS or clone the Github repository
+* Rename `Kernel/Config.pm.dist` to `Kernel/Config.pm` and edit `$Self->{Home}`
+* Copy the `Kernel` folder from this plugin
+* Execute `bin/otrs.Console.pl Dev::Package::Build {path/to/file.sopm} {folder/for/file.opm}`
+
+The resulting OPM file, stored in `{folder/for}` can be installed via admin interface on your live installation.
 
 **Prerequisites**
 
@@ -17,17 +25,3 @@ Download the package and install it via admin interface -> package manager.
 **Configuration**
 
 Not needed.
-
-**Download**
-
-For download see [http://znuny.com/d/](http://znuny.com/d/)
-
-**Commercial Support**
-
-For this extension and for OTRS in general visit [http://znuny.com](http://znuny.com). Looking forward to hear from you!
-
-Enjoy!
-
- Your Znuny Team!
-
- [http://znuny.com](http://znuny.com)
