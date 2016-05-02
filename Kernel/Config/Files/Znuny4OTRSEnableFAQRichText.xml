@@ -8,4 +8,12 @@
             <String Regex="">Kernel::Modules::AgentFAQRichTextEnable</String>
         </Setting>
     </ConfigItem>
+    <ConfigItem Name="CustomerPanelPreApplicationModule###AgentFAQRichTextEnable" Required="0" Valid="1">
+        <Description Translatable="1">This module enables rich text for FAQ also if rich text is disabled via SysConfig.</Description>
+        <Group>Framework</Group>
+        <SubGroup>Frontend::Customer::FAQ</SubGroup>
+        <Setting>
+            <String Regex="">Kernel::Modules::AgentFAQRichTextEnable</String>
+        </Setting>
+    </ConfigItem>
 </otrs_config>
