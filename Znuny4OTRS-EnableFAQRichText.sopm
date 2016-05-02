@@ -4,7 +4,6 @@
     <Version>1.2.0</Version>
     <ChangeLog Version="1.2.0" Date="2015-12-03 11:00:40 UTC">Ported to OTRS 5.0.</ChangeLog>
     <Framework>5.0.x</Framework>
-    <PackageRequired Version="3.0.0">Znuny4OTRS-Repo</PackageRequired>
     <Vendor>-</Vendor>
     <URL>https://github.com/Kdecherf/Znuny4OTRS-EnableFAQRichText</URL>
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
